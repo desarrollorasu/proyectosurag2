@@ -18,3 +18,13 @@
     padding: 20%;
     background-attachment: fixed;
 }
+.bannerpaciente{
+    background-image: url('../img/bannerpac.png');
+    background-position: top center;
+    background-size: cover;
+    padding: 20%;
+    background-attachment: fixed;
+}
+.btn-primary{
+    background-color: #0033a0;
+}
