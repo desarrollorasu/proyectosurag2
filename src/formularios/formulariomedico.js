@@ -26,6 +26,6 @@ export function capturarDatos(etiquetaNombre,etiquetaDocumento,etiquetaEspeciali
         descripcion:descripcionMedico,
         foto:fotoMedico,
     }
-console.log(datosFormularioMedico)
+    validarFormulacion(datosFormularioMedico)
 
 }
