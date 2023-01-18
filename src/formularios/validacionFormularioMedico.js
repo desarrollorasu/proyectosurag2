@@ -1,3 +1,5 @@
+import {registrarMedico} from "../../services/registrarMedico.js"
+
 
 export function validarFormulacion(datos){
    //Referencias a etiquetas que quiero validar
@@ -27,7 +29,7 @@ export function validarFormulacion(datos){
         etiquetaNombre.classList.remove("is-invalid")
         etiquetaDocumento.classList.add("is-invalid")
     }else{
-        alert("No vamos para la BD")
+        registrarMedico(datos)
         etiquetaNombre.classList.remove("is-invalid")
         etiquetaDocumento.classList.remove("is-invalid")
     }
